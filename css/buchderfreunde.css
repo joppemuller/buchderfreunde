@@ -70,6 +70,113 @@ input {
 	color: black;
 }
 
+/* Navigation */
+
+.menuwhite {
+    height: 160px;
+    background-color: white;
+    color: #2B2B2B;
+}
+
+@media (max-width: 768px) {
+    .menuwhite {
+        height: 130px;
+    }
+
+    .header {
+        text-align: left;
+    }
+
+    .header h3 {
+        margin-left: 15px;
+    }
+}
+
+.burger {
+    z-index: 1;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-weight: 500;
+    font-family: sans-serif;
+    border-bottom: 0.2rem solid white;
+    letter-spacing: 0.6px;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #212326;
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.overlay ul {
+	text-decoration: none;
+    padding: 0;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay-content div, .overlay-content ul {
+    margin-top: 50px;
+    list-style: none;
+    padding: 0;
+}
+
+.overlay a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: white !important;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.menu li a {
+    color: white !important;
+}
+
+.menu li a:hover {
+    text-decoration: none;
+    color: white !important;
+}
+
 .header {
 	background-color: #212326;
 	color: white;
@@ -88,6 +195,8 @@ input {
     margin-bottom: 18px;	
 }
 
+/* Hero Img */
+
 .heroimg {
 	background-image: url('../img/Buch-der-Freunde-Poezie-Image1.jpg');
 	background-size: cover;
@@ -101,6 +210,8 @@ input {
 		height: 800px;
 	}
 }
+
+/* Main Content */
 
 .bookexample {
 	padding-top: 50px;
@@ -177,6 +288,40 @@ input {
 	height: 300px;
 }
 
+/* Shops */
+
+.addres h2 {
+	margin-bottom: 50px;
+}
+
+.addres h3 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+}
+
+.addres a {
+	text-transform: uppercase;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	transition: 0.25s;
+	border-bottom: 1px solid black;	
+}
+
+.addres a:hover {
+	text-decoration: none;
+	opacity: 0.6;
+	border-bottom: none;
+}
+
+.addres .single {
+	margin-bottom: 35px;
+}
+
+/* Freunde */
+
+.freunde .single {
+	min-height: 200px;
+}
 
 /* Impressum */
 
@@ -291,4 +436,20 @@ footer .btn {
 		height: 500px;
 	}
 
+}
+
+/* Links */
+
+.xlinks {
+	text-transform: uppercase;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	transition: 0.25s;
+	border-bottom: 1px solid black;	
+}
+
+.xlinks:hover {
+	text-decoration: none;
+	opacity: 0.6;
+	border-bottom: none;
 }

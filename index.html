@@ -40,11 +40,29 @@
 </head>
 <body class="container-fluid">
 
-	<div class="row header">
-		<header>
-			<a href="index.html"><h3>Buch der Freunde</h3></a>
-		</header>
-	</div>
+    <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+          <div id="nav overlay-content">
+            <ul>
+            	<a href="index.html"><li>Home</li></a>
+            	<a href="shops.html"><li>Shops</li></a>            	
+            	<a href="freunde.html"><li>Freunde</li></a>            	
+            	<a href="about.html"><li>Über Uns</li></a>
+            	<a href="faq.html"><li>Fragen</li></a>
+            	<a href="donation.html"><li>Spende</li></a>  	
+            </ul>
+          </div>
+    </div>
+
+    <div class="row header">
+      <header>
+        <a href="http://localhost:8888/buchderfreunde.com/"><h3>Buch der Freunde</h3></a>
+      </header>
+      <span class="burger" style="font-size:20px;cursor:pointer" onclick="openNav()">Menu</span>
+    </div>
+
 	<div class="row heroimg">
 	</div>
 
@@ -897,9 +915,9 @@
 		</div>
 		<div class="col-xs-12 menufooter"> 
 			<ul>
-				<a href="about.html"><li>About</li></a>
+				<a href="about.html"><li>Über Uns</li></a>
 				<a href="impressum.html"><li>Impressum</li></a>
-				<a href="faq.html"><li>FAQ</li></a>
+				<a href="faq.html"><li>Fragen</li></a>
 				<a href="agb.html"><li>AGB</li></a>
 			</ul>
 		</div>
@@ -949,6 +967,15 @@
   ga('create', 'UA-71552510-2', 'auto');
   ga('send', 'pageview');
 
+</script>
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
 </script>
 </body>
 </html>
