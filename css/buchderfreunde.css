@@ -1,0 +1,294 @@
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	font-family: Courier, sans-serif;
+	text-align: center;
+	color: #212326; 
+	overflow-x: hidden;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	line-height: 44px;
+	font-size: 32px;
+    margin-top: 35px;	
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	line-height: 44px;
+	font-size: 32px;
+    margin-top: 35px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+hr {
+	margin-bottom: 35px;
+}
+
+input {
+	padding: 10px;
+	color: grey;
+}
+
+.btn {
+	padding: 10px 12px;
+    border-radius: 0px;
+    color: white;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 3px solid white;
+    transition: 0.25s;
+}
+
+.btn:hover {
+	background-color: white;
+	color: black;
+}
+
+.header {
+	background-color: #212326;
+	color: white;
+}
+
+.header a {
+	color: white;
+}
+
+.header h3 {
+	text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 18px;	
+}
+
+.heroimg {
+	background-image: url('../img/Buch-der-Freunde-Poezie-Image1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+}
+
+@media (min-width: 1400px) {
+	.heroimg {
+		height: 800px;
+	}
+}
+
+.bookexample {
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+.shopify-buy-frame {
+	padding-top: 15px;
+	margin: 0 auto;
+}
+
+
+.empfohlen {
+	margin-top: 75px;
+	margin-bottom: 25px;
+}
+
+.wohnrevue, .blickamabend, .brigitte, .tagesanzeiger, .friday20, .novum {
+    height: 150px;
+    background-position: center center;
+    background-size: 85% auto;
+    background-repeat: no-repeat;	
+}
+
+.wohnrevue {
+    background-image: url(../img/wohnrevue.jpg);
+}
+
+.blickamabend {
+    background-image: url(../img/Logo_Blick_am_Abend.svg.png);
+    background-size: 75%;	
+}
+
+.brigitte {
+	background-image: url(../img/Brigitte-Logo.svg.png);
+}
+
+.tagesanzeiger {
+	background-image: url(../img/Logo_Tagesanzeiger.png);	
+}
+
+.friday20 {
+	background-image: url(../img/20minuten-friday.png);
+	background-size: 60%;	
+}
+
+.novum {
+	background-image: url(../img/novum-new-logo.jpg);	
+}
+
+
+.price {
+	padding-top: 25px;
+}
+
+.pictures {
+	margin-top: 75px;
+	margin-bottom: 25px;
+}
+
+.bghome1 {
+	background-image: url('../img/BDF-Left.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+}
+
+.bghome2 {
+	background-image: url('../img/Buch-der-Freunde-Picture12.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+}
+
+
+/* Impressum */
+
+.impressum {
+	text-align: left;
+}
+
+/* Footer */
+
+.heroimg-f {
+	background-image: url('../img/Buch-der-Freunde-Picture11.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+}
+
+footer {
+	margin-top: 100px;
+	background-color: black;
+}
+
+footer h2 {
+	margin-top: 50px;
+	margin-bottom: 25px;
+	color: white;
+}
+
+footer .btn {
+	margin-top: 20px;
+}
+
+.isbnnumber {
+	margin-top: 50px;
+	color: white;
+}
+
+#name {
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.menufooter {
+	margin-top: 30px;
+}
+
+.menufooter a {
+	color: white;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	transition: 0.25s;
+}
+
+.menufooter a:hover {
+	text-decoration: none;
+	opacity: 0.6;
+}
+
+.menufooter ul {
+	padding: 0;
+}
+
+.menufooter ul li {
+	display: inline;
+	margin-left: 5px;	
+}
+
+#mc_embed_signup {
+	background: transparent !important;
+    clear: left;
+    font: 16px Courier, sans-serif !important;
+    color: white !important;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.socialicons {
+	margin-top: 50px;
+	margin-bottom: 100px;	
+}
+
+.footericon {
+	width: 25px;
+	height: auto;
+	transition: 0.25s;
+}
+
+.footericon:hover {
+	opacity: 0.6;
+}
+
+@media (min-width: 992px) {
+
+	h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	line-height: 60px;
+	font-size: 50px;
+}
+
+	.bghome1, .bghome2 {
+		height: 400px;
+	}
+
+}
+
+@media (min-width: 1200px) {
+
+	.bghome1, .bghome2 {
+		height: 500px;
+	}
+
+}
